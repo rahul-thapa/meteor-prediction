@@ -40,10 +40,12 @@ meteor_model.fit(train_X, train_y)
 
 val_predictions = meteor_model.predict(X.head())
 
-#Making predictions for this data:
+print("Making predictions for this data:")
 
 print(X.head())
+
 print("The predictions are:")
+
 print(val_predictions)
 
 
